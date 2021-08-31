@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+#hero {
+    align-items: center;
+    background-color: rgb(63, 48, 131);
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+#title {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+}
+
+#img-div {
+    background-color: rgb(228, 228, 228);
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    height: 100%;
+    margin: 2rem;
+    padding: 2rem;
+    width: auto;
+}
+
+#image {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+#img-caption {
+    margin-top: 2rem;
+}
+
+#tribute-info {
+    padding: 2rem;
+}
+
+.tribute-paragraph {
+    margin: 1rem 0;
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+.extra-info {
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+}
