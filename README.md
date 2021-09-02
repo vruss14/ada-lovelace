@@ -54,11 +54,11 @@ This web application includes responsive design and can be viewed on all devices
 
 Below is a screenshot of the desktop version of the deployed page:
 
-![screenshot of webpage for desktop](quiz-screenshot.png)
+![screenshot of webpage for desktop](./assets/images/ada-lovelace-desktop-screenshot.png)
 
 Below is a screenshot of the deployed page on mobile:
 
-![screenshot of webpage for desktop](quiz-mobile-screenshot.png)
+![screenshot of webpage for desktop](./assets/images/ada-lovelace-mobile-screenshot.png)
 
 ## Credits
 
