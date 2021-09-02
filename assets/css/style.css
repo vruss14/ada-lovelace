@@ -12,7 +12,6 @@ body {
 
 #hero {
     background: linear-gradient(rgba(42, 32, 88, 1.0), black)
-
 }
 
 #hero, #footer {
@@ -38,8 +37,6 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 1rem;
-
-
 }
 
 #img-div {
@@ -72,8 +69,6 @@ body {
 #img-div a:hover {
     font-weight: 600;
 }
-
-
 
 #image {
     height: auto;
@@ -128,7 +123,6 @@ body {
 }
 
 #footer {
-    /* background: linear-gradient(rgba(42, 32, 88, 1.0), rgba(42, 32, 88, 0.7)); */
     background: linear-gradient(black, rgba(42, 32, 88, 1.0));
 }
 
@@ -140,6 +134,8 @@ body {
     padding: 0 1em;
     text-align: center;
 }
+
+/* Animation for the image container */
 
 @keyframes tilt {
 
@@ -155,6 +151,8 @@ body {
         transform: rotateZ(0deg)
     }
 }
+
+/* Responsive styling for tablets/mobile devices */
 
 @media screen and (max-width: 768px) {
     #title {
