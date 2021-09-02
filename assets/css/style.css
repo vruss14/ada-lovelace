@@ -11,7 +11,7 @@ body {
 }
 
 #hero {
-    background: linear-gradient(rgba(63, 48, 131, 0.6), rgba(63, 48, 131, 1.0));
+    background: linear-gradient(rgba(42, 32, 88, 0.7), rgb(42, 32, 88));
 }
 
 #hero, #footer {
@@ -52,6 +52,13 @@ body {
     width: 40%;
 }
 
+#img-div:hover {
+    animation-name: tilt;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
 /* Ensures that the img credit link wraps properly across different viewports/browsers */
 #img-div a {
     white-space: pre-wrap;   
@@ -61,12 +68,11 @@ body {
     word-wrap: break-word;
 }
 
-#img-div:hover {
-    animation-name: tilt;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    cursor: pointer;
+#img-div a:hover {
+    font-weight: 600;
 }
+
+
 
 #image {
     height: auto;
@@ -92,6 +98,17 @@ body {
     margin: 0 0 1rem 0;
 }
 
+.commentary-paragraph {
+    margin: 2rem 0;
+}
+
+.commentary-paragraph::before {
+    content: "💻";
+    height: 2px;
+    margin-right: 5px;
+    width: 2px;
+}
+
 #half-circle {
     align-items: center;
     background-color: rgb(238, 225, 153);
@@ -110,7 +127,7 @@ body {
 }
 
 #footer {
-    background: linear-gradient(rgba(63, 48, 131, 1.0), rgba(63, 48, 131, 0.6));
+    background: linear-gradient(rgba(42, 32, 88, 1.0), rgba(42, 32, 88, 0.7));
 }
 
 #footer p {
